@@ -36,7 +36,7 @@ jobs:
             --base-auth-uri $CX_BASE_AUTH_URI \
             --tenant $CX_TENANT \
             --apikey $CX_API_KEY \
-            --sca-exploitable-path=True \
+            --sca-exploitable-path=true \
             --sast-incremental \
             --report-format json,summaryHTML
           
